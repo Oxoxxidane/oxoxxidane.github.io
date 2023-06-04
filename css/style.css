@@ -597,6 +597,18 @@ body.light hr.separator {
     left: calc(10% + 420px);
   }
 
+  .about .ttt{
+    font-size: 22px;
+  }
+  
+  .about .aaa{
+    font-size: 15px;
+  }
+  
+  .home .aa{
+    font-size: 18px;
+  }
+
 }
 
 @media (max-width: 1200px) {
@@ -670,6 +682,18 @@ body.light hr.separator {
     .home .offset-lg-40 {
       left: 42%;
     }
+
+    .about .ttt{
+      font-size: 22px;
+    }
+    
+    .about .aaa{
+      font-size: 15px;
+    }
+    
+    .home .aa{
+      font-size: 18px;
+    }
   }
 }
 
@@ -726,11 +750,17 @@ body.light hr.separator {
   .home .aa{
     font-size: 15px;
   }
+
+  .about .aaa{
+    font-size: 8px;
+  }
+
+  .about .ttt{
+    font-size: 15px;
+  }
 }
 
-.home .aa{
-  font-size: 18px;
-}
+
 
 .home .home-details > div {
   max-width: 700px;
