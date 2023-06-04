@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>About Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/yellow.css" rel="stylesheet">
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="about">
+<!-- Live Style Switcher Starts - demo only -->
+<div id="switcher" class="">
+    <div class="content-switcher">
+        <h4>STYLE SWITCHER</h4>
+        <ul>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="img/styleswitcher/purple.png" alt="purple"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="img/styleswitcher/red.png" alt="red"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="img/styleswitcher/blueviolet.png" alt="blueviolet"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="img/styleswitcher/blue.png" alt="blue"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="img/styleswitcher/goldenrod.png" alt="goldenrod"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="img/styleswitcher/magenta.png" alt="magenta"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="img/styleswitcher/yellowgreen.png" alt="yellowgreen"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="img/styleswitcher/orange.png" alt="orange"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="img/styleswitcher/green.png" alt="green"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="img/styleswitcher/yellow.png" alt="yellow"/></a>
+            </li>
+        </ul>
+
+        <div id="hideSwitcher">&times;</div>
+    </div>
+
+</div>
+<!--div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div-->
+<!-- Live Style Switcher Ends - demo only -->
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box">
+            <i class="fa fa-home"></i>
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+        </li>
+        <li class="icon-box active">
+            <i class="fa fa-user"></i>
+            <a href="CV.html">
+                <h2>CV</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li class="active"><a href="CV.html"><i class="fa fa-user"></i><span>CV</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+</header>
+<!-- Header Ends -->
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>个人<span>简历</span></h1>
+    <span class="title-bg">Resume</span>
+</section>
+<!-- Page Title Ends -->
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Experience & Education Starts -->
+            <div class="row">
+                <div class="col-12">
+                <h3 class="text-uppercase custom-title mb-0 ft-wt-600">教育经历 <span>&</span> 实习经历</h3>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2020.9 - 至今</span>
+                            <h5 class="poppins-font text-uppercase">福州大学<span class="place open-sans-font">电子信息工程</span></h5>
+                            <p class="open-sans-font"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;GPA 3.597/4.0&nbsp;&nbsp;排名：3/35  (2023.6.3)</p>
+                            <p class="open-sans-font"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;信号与系统(94)&nbsp;&nbsp;FPGA/CPLD设计(95)&nbsp;&nbsp;信息论与编码(94)&nbsp;&nbsp;面对对象程序设计(92)&nbsp;&nbsp;C语言(98)</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2023.3 - 至今</span>
+                            <h5 class="poppins-font text-uppercase">中国科学院海西泉州装备制造研究所<span class="place open-sans-font">实习</span></h5>
+                            <p class="open-sans-font"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;职责包括：图像处理算法开发、AI边缘计算与嵌入式系统搭建</p>
+                            <p class="open-sans-font"><i class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp;导师：李俊教授<a href="https://people.ucas.edu.cn/~121"><i class="fa fa-paperclip" aria-hidden="true"></i></a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Experience & Education Ends -->
+            <!-- Personal Info Starts -->
+        <div class="col-12">
+            <div class="row">
+                
+                <h3 class="text-uppercase custom-title mb-0 ft-wt-600">项目经历</h3>
+                
+                <!--div class="col-12 d-block d-sm-none">
+                    <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile" alt="my picture" />
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li> <span class="title">first name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Steve</span> </li>
+                        <li> <span class="title">last name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Milner</span> </li>
+                        <li> <span class="title">Age :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">27 Years</span> </li>
+                        <li> <span class="title">Nationality :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Tunisian</span> </li>
+                        <li> <span class="title">Freelance :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Available</span> </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul class="about-list list-unstyled open-sans-font">
+                        <li> <span class="title">Address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Tunis</span> </li>
+                        <li> <span class="title">phone :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">+21621184010</span> </li>
+                        <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">you@mail.com</span> </li>
+                        <li> <span class="title">Skype :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">steve.milner</span> </li>
+                        <li> <span class="title">langages :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">French, English</span> </li>
+                    </ul>
+                </div-->
+
+                <div class="col-12">
+                    <div class="col-12">
+                        <div class="col-12">
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                应急工程车辆环境建模分析系统-视觉部分（指导：李俊教授）
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="col-12">
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                基于yolov8、pconv和通道注意力机制，设计了一种轻量化的红外-可见光联合检测模型
+                                            </p>
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                算法部署于Jetson nano平台
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                四级无阻塞流水线 RISC-V CPU 设计（指导：林志坚教授）
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="col-12">
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                采用Verilog设计并编写了一个支持RV32I指令集的四级流水线CPU
+                                            </p>
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                在Gowin GW1NSR-4C FPGA上通过了板上测试
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                基于双三次插值法的图像上采样IP设计（指导：林志坚教授）
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="col-12">
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                在Xlinx ZYNQ 7020平台上实现了一种基于双三次插值法的图像上采样IP核
+                                            </p>
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                涉及滑动窗口、流水线、基4 Booth乘法器等多种技术
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                基于LoRa通信的手势控制四足机器人
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="col-12">
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                使用ESP32作为主控芯片，设计了一种四足仿生机器人
+                                            </p>
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                实现了基于穿戴式IMU的手势控制和基于LORA和RK3399终端的物联网控制
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                智能 LED 特征光谱害虫诱杀系统（指导：李俊教授）
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="col-12">
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                负责将检测算法（PicoDet）量化并部署至嵌入式设备（RK3399）
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                蒙特卡洛法光线追踪渲染程序
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="col-12">
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                使用C++和OpenGL开发，基于OpenMP实现了多线程计算，实现了简单场景的全局光照渲染
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                亚采样波形的压缩感知恢复与基于字典学习的图像超分辨率重建实验（指导：林志坚教授、陈建教授）
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="col-12">
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                该实验使用Matlab完成
+                                            </p>
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                编写并实现了OMP和COSAMP等追踪匹配算法实现稀疏亚采样波形恢复
+                                            </p>
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                使用K-SVD算法对低分辨率-高分辨率图像对进行联合训练，将得到的字典用于图像超分辨率重建
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                信号谐波失真度测量仪（指导：林坚普博士）
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="col-12">
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                使用TI公司的MSP432板卡实现了一种对1khz-50khz范围信号的谐波失真度测量装置，误差在3%以内
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                单次波形复现装置（指导：林坚普博士）
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="col-12">
+                                            <p style="font-size: 15px;">
+                                                <i class="fa fa-circle-o" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                                使用STM32实现了一种对多通道单周期突发波形信号进行录制存储并复现的电路系统
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+            <!-- Personal Info Ends -->
+            <!-- Boxes Starts -->
+        <!--div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">
+            <div class="row">
+                <div class="col-6">
+                    <div class="box-stats with-margin">
+                        <h3 class="poppins-font position-relative">12</h3>
+                        <p class="open-sans-font m-0 position-relative text-uppercase">years of <span class="d-block">experience</span></p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="box-stats with-margin">
+                        <h3 class="poppins-font position-relative">97</h3>
+                        <p class="open-sans-font m-0 position-relative text-uppercase">completed <span class="d-block">projects</span></p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="box-stats">
+                        <h3 class="poppins-font position-relative">81</h3>
+                        <p class="open-sans-font m-0 position-relative text-uppercase">Happy<span class="d-block">customers</span></p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="box-stats">
+                        <h3 class="poppins-font position-relative">53</h3>
+                        <p class="open-sans-font m-0 position-relative text-uppercase">awards <span class="d-block">won</span></p>
+                    </div>
+                </div>
+            </div>
+        </div-->
+            <!-- Boxes Ends -->
+    </div>
+    <hr style="opacity: 0.3;">
+    <div class="col-12">
+            <div class="row">
+                
+                <h3 class="text-uppercase custom-title mb-0 ft-wt-600">奖项和奖学金</h3>
+
+                <div class="col-12">
+                    <div class="col-12">
+
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                2021年带队参加瑞芯微杯福州大学电子设计竞赛获一等奖
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                2021年带队参加TI杯全国大学生电子设计竞赛获福建赛区省一等奖
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                2022年参加蓝桥杯软件专业人才大赛嵌入式赛道获福建赛区省一等奖
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                2022年带队参加TI杯福建省电子设计大赛获二等奖
+                            </p>
+                            <p style="font-size: 22px;">
+                                <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                                2020至今连续5学期获福州大学综合奖学金
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="opacity: 0.3;">
+        <div class="col-12">
+            <div class="row">
+                <h3 class="text-uppercase custom-title mb-0 ft-wt-600">社会活动</h3>
+                <div class="col-12">
+                    <div class="col-12">
+                        <p style="font-size: 22px;">
+                            <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                            2021年至今连任福州大学先进制造与海洋学院电子爱好者协会会长，是协会实验室的创始人之一。
+                        </p>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="opacity: 0.3;">
+        <div class="col-12">
+            <div class="row">
+                <h3 class="text-uppercase custom-title mb-0 ft-wt-600">个人技能</h3>
+                <div class="col-12">
+                    <div class="col-12">
+                        <p style="font-size: 22px;">
+                            <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                            编程经验：Python、C++、Matlab、Java、Verilog、HTML、JavaScript等，以及Pytorch、OpenCV、QT C++、OpenGL。
+                        </p>
+                        <p style="font-size: 22px;">
+                            <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                            硬件经验：STM32系列、ESP32系列、MSP系列、AVR系列、ZYNQ7020、Gowin GW1NSR、RK3399、树莓派、Jetson nano等。
+                        </p>
+                        <p style="font-size: 22px;">
+                            <i class="fa fa-circle" aria-hidden="true" style="font-size: 15px;"></i>&nbsp;&nbsp;
+                            其他技能：熟悉平面视觉设计和动态视觉设计，有良好的设计审美能力。熟练使用 Adobe After Effects、Adobe
+                            Photoshop、Adobe Premiere Pro、Adobe Audition 等软件。有 C4D、Blender、Solidworks 等 3D 建模
+                            基础，有光固化和FDM 3D打印技术基础，有高速PCB设计基础。
+                        </p>
+                    </div>
+                </div>
+                <a href="CV.html" class="btn btn-download">Download CV</a>
+            </div>
+        </div>  
+    </div>
+</section>
+<!-- Main Content Ends -->
+
+<!-- Template JS Files -->
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/styleswitcher.js"></script>
+<script src="js/preloader.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script src="js/jquery.hoverdir.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+
+</html>
