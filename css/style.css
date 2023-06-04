@@ -510,20 +510,6 @@ body.light hr.separator {
   color: aliceblue;
 }
 
-.home .colorbg {
-  /*==========分割线条=========*/
-  border: 30px solid transparent;
-}
-
-
-.home .articalbg {
-  /*=========作品框背景========*/
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border: 50px solid transparent;
-  background-color: #252525;
-}
-
 .home .grayline {
   /*=======作品框分割线========*/
   color: #252525;
@@ -555,6 +541,19 @@ body.light hr.separator {
     top: 2%; 
     left: calc(103% - 290px);
     font-size: 13px;
+  }
+
+  .home .articalbg {
+    /*=========作品框背景========*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 50px solid transparent;
+    background-color: #252525;
+  }
+
+  .home .colorbg {
+    /*==========分割线条=========*/
+    border: 30px solid transparent;
   }
 
   .home .bg {
@@ -614,6 +613,14 @@ body.light hr.separator {
       font-size: 13px;
     }
 
+    .home .articalbg {
+      /*=========作品框背景========*/
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border: 50px solid transparent;
+      background-color: #252525;
+    }
+
     .home .bg {
       /*===========照片===========*/
       background-image: url(../img/3.jpg);
@@ -628,6 +635,11 @@ body.light hr.separator {
       top: 50px;
       box-shadow: 0 0 50px rgba(0,0,0,.95);
       border: 5px solid #444;
+    }
+
+    .home .colorbg {
+      /*==========分割线条=========*/
+      border: 30px solid transparent;
     }
     
     .home .vertical-line {
@@ -674,6 +686,14 @@ body.light hr.separator {
     left: 1%;
     font-size: 13px;
   }
+
+  .home .articalbg {
+    /*=========作品框背景========*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 20px solid transparent;
+    background-color: #252525;
+  }
   
   .home .vertical-line {
     /*===========分割线===========*/
@@ -685,10 +705,31 @@ body.light hr.separator {
     width: 100%;
     top: 0%;
   }
+  .home .infopos p{
+    /*===========简要信息===========*/
+    font-size: 15px;
+  }
+
+  .home .colorbg {
+    /*==========分割线条=========*/
+    border: 20px solid transparent;
+  }
+  .home .colorbg h2 {
+    /*==========分割线条=========*/
+    font-size: 15px;
+  }
 
   .home .home-details {
     margin: 0 auto;
   }
+
+  .home .aa{
+    font-size: 15px;
+  }
+}
+
+.home .aa{
+  font-size: 18px;
 }
 
 .home .home-details > div {
@@ -1528,7 +1569,7 @@ body.light hr.separator {
 
   .home .home-details p {
     margin: 10px 0 23px;
-    font-size: 15px;
+    font-size: 8px;
     line-height: 30px;
   }
 
