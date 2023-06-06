@@ -528,6 +528,11 @@ body.light hr.separator {
   border-top: 5px solid #ffb400;
 }
 
+.home .post-thumb img {
+  display: block; /* 将图片设置为块级元素，使它能够使用width和height属性 */
+  width: 100%; /* 图片宽度占满父级盒子的100% */
+  height: auto; /* 根据宽度等比缩放图片的高度 */
+}
 
 @media (min-width: 1101px) {
   /*===================home页面最宽==================*/
